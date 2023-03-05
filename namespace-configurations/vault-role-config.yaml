@@ -74,7 +74,7 @@ spec:
             path: kubernetes
             role: policy-admin
           path: quay
-          namespaceName: raf-backstage-demo
+          namespaceName: rent-a-camel-idp
           defaultPermission: read
       excludedPaths:
         - .metadata
@@ -131,7 +131,7 @@ spec:
             path: kubernetes
             role: policy-admin
           path: quay
-          namespaceName: raf-backstage-demo
+          namespaceName: rent-a-camel-idp
           namespaceType: organization
           defaultPermission: write
           createRepositories: true

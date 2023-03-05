@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: quay.io/raffaelespazzoli/kcp
+  repository: quay.io/rent-a-camel-idp/kcp
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest

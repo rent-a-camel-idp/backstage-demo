@@ -149,7 +149,7 @@ spec:
           gitHub:
             gitServerCredentials:
               name: github-credentials
-          repositoryOwner: raf-backstage-demo
+          repositoryOwner: rent-a-camel-idp
           ownerType:  organization
           repositoryName: {{ .Labels.app }}-gitops
           # webhookURL: intentionally empty, will be patched
