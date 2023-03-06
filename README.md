@@ -59,7 +59,7 @@ git clone git@github.com:${github_organization}/backstage-demo.git
 cd backstage-demo
 find . -type f -not -path '*/\.git/*' -exec sed -i "s/rent-a-camel-idp/${github_organization}/g" {} +
 find . -type f -not -path '*/\.git/*' -exec sed -i "s/rent-a-camel-idp/${github_organization}/g" {} +
-find . -type f -not -path '*/\.git/*' -exec sed -i "s/cluster-pntr8.pntr8.sandbox988.opentlc.com/${base_domain}/g" {} +
+find . -type f -not -path '*/\.git/*' -exec sed -i "s/cluster-q4dlx.q4dlx.sandbox744.opentlc.com/${base_domain}/g" {} +
 git add -A
 git commit -m "initial customization"
 git push
@@ -73,7 +73,7 @@ Then execute the following commands
 git clone git@github.com:${github_organization}/shared-workflows.git
 cd shared-workflows
 find . -type f -not -path '*/\.git/*' -exec sed -i "s/rent-a-camel-idp/${github_organization}/g" {} +
-find . -type f -not -path '*/\.git/*' -exec sed -i "s/cluster-pntr8.pntr8.sandbox988.opentlc.com/${base_domain}/g" {} +
+find . -type f -not -path '*/\.git/*' -exec sed -i "s/cluster-q4dlx.q4dlx.sandbox744.opentlc.com/${base_domain}/g" {} +
 git add -A
 git commit -m "initial customization"
 git push
@@ -87,7 +87,7 @@ Then execute the following commands
 git clone git@github.com:${github_organization}/software-templates.git
 cd software-templates
 find . -type f -not -path '*/\.git/*' -exec sed -i "s/rent-a-camel-idp/${github_organization}/g" {} +
-find . -type f -not -path '*/\.git/*' -exec sed -i "s/cluster-pntr8.pntr8.sandbox988.opentlc.com/${base_domain}/g" {} +
+find . -type f -not -path '*/\.git/*' -exec sed -i "s/cluster-q4dlx.q4dlx.sandbox744.opentlc.com/${base_domain}/g" {} +
 git add -A
 git commit -m "initial customization"
 git push

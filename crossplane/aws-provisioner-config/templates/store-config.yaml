@@ -8,7 +8,7 @@
 #   type: Vault
 #   defaultScope: {{ .Release.Namespace }}
 #   vault:
-#     server: "https://vault.apps.cluster-pntr8.pntr8.sandbox988.opentlc.com"
+#     server: "https://vault.apps.cluster-q4dlx.q4dlx.sandbox744.opentlc.com"
 #     mountPath: crossplane/
 #     version: v2
 #     auth:
